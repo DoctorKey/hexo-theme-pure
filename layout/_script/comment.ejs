@@ -10,4 +10,6 @@
     <%- partial('_script/_comment/gitalk', { script: true }) %>      
 <% } else if (theme.comment.type === 'valine') { %>
     <%- partial('_script/_comment/valine', { script: true }) %>     
+<% } else if (theme.comment.type === 'waline') { %>
+    <%- partial('_script/_comment/waline', { script: true }) %>   
 <% } %>

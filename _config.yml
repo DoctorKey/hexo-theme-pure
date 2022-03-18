@@ -31,14 +31,14 @@ site:
     width: 40
     height: 40
     url: ../images/logo.png
-  title: Hexo # 页面title
-  favicon: /favicon.png
+  title: Guo-Hua Wang # 页面title
+  favicon: /images/wanggh.png
   board: <p>欢迎交流与分享经验!</p> # 站点公告
   copyright: false # 底部版权信息
 
 # config
 config:
-  skin: # 主题颜色 theme-black theme-blue theme-green theme-purple
+  skin: theme-black # 主题颜色 theme-black theme-blue theme-green theme-purple
   layout: main-center # 布局方式 main-left main-center main-right
   toc: true # 是否开启文章章节目录导航
   menu_highlight: false # 是否开启当前菜单高亮显示
@@ -88,7 +88,7 @@ search:
 
 # Donate
 donate:
-  enable: true
+  enable: false
   # 微信打赏
   wechatpay:
     qrcode: images/donate/wechatpayimg.png
@@ -107,13 +107,13 @@ share:
 
 # Github
 github: 
-  username: cofess  # github username
+  username: DoctorKey  # github username
 
 # Comment
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 comment:
-  type: valine  # 启用哪种评论系统
+  type: waline  # 启用哪种评论系统
   disqus:  # enter disqus shortname here
   youyan: 
     uid: 1783844 # enter youyan uid 
@@ -144,6 +144,14 @@ comment:
     meta: nick,mail,link # custom comment header
     pageSize: 10 # pagination size
     visitor: false # Article reading statistic https://valine.js.org/visitor.html
+
+  waline: # Waline. https://waline.js.org/
+    serverURL: https://tech-waline-9h17qaygr-doctorkey.vercel.app # your leancloud application appid
+    placeholder: "请填写正确的昵称和邮箱，方便接收评论回复信息哦。"
+    avatar: 'monsterid' # gravatar style
+    meta: nick,mail,link # custom comment header
+    pageSize: 10 # pagination size
+    lang: zh
 
 # douban 豆瓣书单
 # Api：
@@ -194,17 +202,17 @@ fb_app_id:
 profile:
   enabled: true # Whether to show profile bar
   articleSelfBlock: false # 关闭文章下方的自我介绍
-  avatar: images/avatar.jpg
+  avatar: images/wanggh.png
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: 昵称
-  author_title: Web Developer & Designer
-  author_description: 个人简介。
-  location: Shenzhen, China
-  follow: https://github.com/cofess
+  author: Guo-Hua Wang (王国华)
+  author_title: Researcher & Developer
+  author_description: Ph.D. candidate, LAMDA Group, Nanjing University
+  location: Nanjing, China
+  follow: http://www.lamda.nju.edu.cn/wangguohua/
   # Social Links
   social:
     links:
-      github: https://github.com/cofess
+      github: https://github.com/DoctorKey
       weibo: http://weibo.com/cofess
       twitter: https://twitter.com/iwebued
       # facebook: /
@@ -223,7 +231,7 @@ profile:
     平面设计: ★★★☆☆
   # My Personal Links
   links:
-    Github: https://github.com/cofess
+    Github: https://github.com/DoctorKey
     Blog: http://blog.cofess.com
     微博: http://weibo.com/cofess
     花瓣: http://huaban.com/cofess
