@@ -213,11 +213,13 @@ profile:
   social:
     links:
       github: https://github.com/DoctorKey
-      weibo: http://weibo.com/cofess
-      twitter: https://twitter.com/iwebued
+      douban: https://www.douban.com/people/doctor-key
+      zhihu: https://www.zhihu.com/people/doctor-key
+      # weibo: http://weibo.com/cofess
+      # twitter: https://twitter.com/iwebued
       # facebook: /
       # dribbble: /
-      behance: https://www.behance.net/cofess
+      # behance: https://www.behance.net/cofess
       rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills 
@@ -238,8 +240,8 @@ profile:
     Behance: https://www.behance.net/cofess
   # My Personal Labels
   labels:
-    - 前端
-    - 前端开发
+    - 机器学习
+    - 计算机视觉
     - 前端重构
     - Web前端
     - 网页重构
