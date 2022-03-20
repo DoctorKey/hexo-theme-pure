@@ -172,7 +172,7 @@ douban:
 # PV
 pv:
   busuanzi:
-    enable: true  # 不蒜子统计
+    enable: false  # 不蒜子统计
   leancloud:
     enable: false  # leancloud统计
     app_id: # leancloud <AppID>
@@ -211,6 +211,7 @@ profile:
   # Social Links
   social:
     links:
+      google: https://scholar.google.com/citations?user=9T7z-kYAAAAJ&hl=en
       github: https://github.com/DoctorKey
       douban: https://www.douban.com/people/doctor-key
       zhihu: https://www.zhihu.com/people/doctor-key
