@@ -31,7 +31,7 @@ site:
     height: 40
     url: ../images/logo.png
   title: Guo-Hua Wang # 页面title
-  favicon: /images/wanggh.png
+  favicon: /images/avatar.jpg
   board: <p>欢迎交流与分享经验!</p> # 站点公告
   copyright: true # 底部版权信息
 
@@ -87,7 +87,7 @@ search:
 
 # Donate
 donate:
-  enable: false
+  enable: true
   # 微信打赏
   wechatpay:
     qrcode: images/donate/wechatpayimg.png
@@ -145,7 +145,7 @@ comment:
     visitor: false # Article reading statistic https://valine.js.org/visitor.html
 
   waline: # Waline. https://waline.js.org/
-    serverURL: https://tech-waline-9h17qaygr-doctorkey.vercel.app # your leancloud application appid
+    serverURL:  # your leancloud application appid
     placeholder: "请填写正确的昵称和邮箱，方便接收评论回复信息哦。"
     avatar: 'monsterid' # gravatar style
     meta: nick,mail,link # custom comment header
@@ -211,7 +211,6 @@ profile:
   # Social Links
   social:
     links:
-      google: https://scholar.google.com/citations?user=9T7z-kYAAAAJ&hl=en
       github: https://github.com/DoctorKey
       douban: https://www.douban.com/people/doctor-key
       zhihu: https://www.zhihu.com/people/doctor-key
