@@ -145,7 +145,7 @@ comment:
     visitor: false # Article reading statistic https://valine.js.org/visitor.html
 
   waline: # Waline. https://waline.js.org/
-    serverURL: https://tech-waline-9h17qaygr-doctorkey.vercel.app # your leancloud application appid
+    serverURL: https://tech-waline.vercel.app # your leancloud application appid
     placeholder: "请填写正确的昵称和邮箱，方便接收评论回复信息哦。"
     avatar: 'monsterid' # gravatar style
     meta: nick,mail,link # custom comment header
