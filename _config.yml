@@ -151,6 +151,7 @@ comment:
     meta: nick,mail,link # custom comment header
     pageSize: 10 # pagination size
     lang: zh
+    visitor: true
 
 # douban 豆瓣书单
 # Api：
